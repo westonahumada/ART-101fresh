@@ -1,0 +1,22 @@
+body{background-color: rgb(104, 104, 118);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:rgb(180, 180, 243)
+
+}
+button{
+    background-color:rgb(88, 60, 159);
+    color:rgb(35, 6, 46);
+    border-radius:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:4px dotted orangered;
+    width: 200px;
+
+}
+
+
+img {
+    height: 100px;
+    width: 150px;
+    display:flex;
+    border: 6px dashed grey
+}
