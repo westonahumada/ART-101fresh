@@ -1,35 +1,21 @@
-html, body {
-  margin: 0; /used ChatGPT for this part/
-  padding: 0;
-  height: 100%;
-}
-
 .image-container {
   position: relative;
-  width: 100vw;
-  height: 100vh;
-  background-image: url('pinksky.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto%;
 }
 
 .overlay-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 20px;
-  text-align: center;
-  border-radius: 8px;
-}
-.top image {
-positon: absolute ;
-top: 20px;
-left: 20px;
-wdith: 100px;
-
-}
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #00000000; 
+  color: #000000; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;}

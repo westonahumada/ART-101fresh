@@ -1,4 +1,9 @@
 BODY {background: rgb(165, 178, 151); padding: 30px;}
-H1, H2, H3 {color: darkolivegreen; font family: monospace}
+H1,H2,H3 {color: rgb(162, 255, 0); font : monospace}
 
 #clicker {width:200px;}
+#introduction h2 {font-style: italic;}
+#introduction p {font-size: 120%;}
+
+.navigation {display: flex;
+gap: 20px;}

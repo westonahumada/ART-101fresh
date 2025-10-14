@@ -1,0 +1,17 @@
+body {background-color: rgb(155, 187, 216);}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #00000000; 
+  color: #858ffb; 
+  padding: 10px 20px; 
+  font-size: 50px; 
+  text-align: center;}
+
+ .rusty{position: relative;}
+.rusty img{width: 400px;
+    padding-left:80px
+    display:block;}
