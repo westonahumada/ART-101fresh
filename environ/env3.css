@@ -13,12 +13,12 @@ body {background-color: rgb(155, 187, 216);}
 
   .dog{position: relative;}
 .dog img{width: 400px;
-    padding-left:80px
+    padding-left:80px;
     display:block;} 
 
  .rusty{position: relative;}
 .rusty img{width: 400px;
-    padding-left:80px
+    padding-left:80px;
     display:block;}
     
     .navigation {display: flex; 

@@ -1,16 +1,19 @@
 
-let totalNumber =0;
+let count = 0;
+let colors = ["Orchid", "Coral", "HotPink", "Plum"]; // new line to add
 
-// add a button titled click me
+$("#needy-button").click(function () {
 
-$ ("#needy-button").click(function(){
-totalNumber = totalNumber + 4.5;
-let sentence="Dont click me or ill clik u ";
-let sentencetwo = "Dam it "
-let totalNumbers= sentence + totalNumber + sentencetwo;
+    let reminder=count % colors.length;
 
-$("#needy-button").html(totalNumbers);
-})
+    $("#needy-button").html( "Clicks: " + count + " Color: " + colors[count] ); 
+   
+
+$("body").css("background-color", colors[reminder]);
+
+    count = count + 1;
+
+});
 
 // when the button is clicked 
 // add one to the total number
