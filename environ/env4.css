@@ -1,0 +1,31 @@
+body {background-color: rgb(155, 187, 216);}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #00000000; 
+  color: #5c1010; 
+  padding: 10px 20px; 
+  font-size: 100px; 
+  text-align: center;}
+
+  .dog{position: relative;}
+.dog img{width: 400px;
+    padding-left:80px;
+    display:block;} 
+
+ .rusty {
+  position: absolute;
+  top: 200px;  /* vertical position */
+  left: 600px; /* horizontal position */
+}
+
+.rusty img {
+  width: 400px;
+}
+   
+    
+    .navigation {display: flex; 
+gap: 20px;}
