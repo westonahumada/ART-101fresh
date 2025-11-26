@@ -6,16 +6,17 @@
 .image-container img {
   display: block;
   width: 100%;
-  height: auto%;
+  height: auto; 
 }
 
 .overlay-text {
   position: absolute;
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-  background-color: #00000000; 
-  color: #000000; 
-  padding: 10px 20px; 
-  font-size: 20px; 
-  text-align: center;}
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; 
+  color: #000000;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+}
